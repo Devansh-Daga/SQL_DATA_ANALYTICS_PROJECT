@@ -20,10 +20,15 @@ Highlights:
 		- average monthly spend
 ===============================================================================
 */
-
+-- =============================================================================
+-- Create Report: gold.report_customers
+-- =============================================================================
+DROP IF EXISTS GOLD.REPORT_CUSTOMERS 
 CREATE VIEW GOLD.REPORT_CUSTOMERS AS (
 	WITH BASE_QUERY AS(
-		-- base query : retrieving core columns from tables 
+	/*---------------------------------------------------------------------------
+	1) Base Query: Retrieves core columns from fact_sales and dim_customers
+	---------------------------------------------------------------------------*/ 
 		SELECT 
 			F.ORDER_NUMBER,
 			F.PRODUCT_KEY,
@@ -40,7 +45,9 @@ CREATE VIEW GOLD.REPORT_CUSTOMERS AS (
 		WHERE ORDER_DATE IS NOT NULL
 	)
 	, CUSTOMER_AGGREGATION AS (
-	-- CUSTOMER AGGREGATION : SUMMARIZES KEY METRICS AT THE CUSTOMER LEVEL
+	/*---------------------------------------------------------------------------
+	2) Customer Aggregations: Summarizes key metrics at the csutomer level
+	---------------------------------------------------------------------------*/
 		SELECT 
 			CUSTOMER_KEY,
 			CUSTOMER_NUMBER,
@@ -61,6 +68,9 @@ CREATE VIEW GOLD.REPORT_CUSTOMERS AS (
 			CUSTOMER_NAME,
 			AGE
 	)
+	/*---------------------------------------------------------------------------
+  3) Final Query: Combines all results related to customer into one output
+---------------------------------------------------------------------------*/
 	SELECT 
 		CUSTOMER_KEY,
 		CUSTOMER_NUMBER,
