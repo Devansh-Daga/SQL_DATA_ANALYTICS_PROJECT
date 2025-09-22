@@ -55,3 +55,41 @@ The project demonstrates how SQL can be used to clean data, generate reports, an
 3. Import your dataset or use the provided schema (`sample_schema.sql` if available).
 
 4. Run the SQL scripts in the `Scripts/` folder to perform analysis.
+
+---
+
+## 🗂️ Requirements
+
+- SQL Database (**PostgreSQL, MySQL, or SQL Server**)  
+- SQL client/IDE (e.g., **pgAdmin**, **MySQL Workbench**, **DBeaver**, **VS Code**)
+
+---
+
+## 📝 Roadmap
+
+- [ ] Add more advanced analytical SQL queries  
+- [ ] Include sample dataset for testing  
+- [ ] Provide optimized versions of heavy queries  
+- [ ] Add Jupyter Notebook examples for interactive demo  
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+
+1. Fork the repository  
+2. Create a feature branch (`git checkout -b feature-name`)  
+3. Commit changes (`git commit -m "Added feature"`)  
+4. Push and open a Pull Request
+
+## 📜 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.
+
+---
+
+## 🙋‍♂️ About
+
+Developed by **Devansh Daga**  
+This repository is part of my journey to master **SQL and Data Analytics**.
