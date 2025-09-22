@@ -91,6 +91,3 @@ Connect on [LinkedIn](https://linkedin.com/in/devansh-daga) or ask for feedback!
 
 ---
 
-## 📛 How to Add Badges
-
-Visit [Shields.io](https://shields.io/), select a badge style, customize, copy the Markdown code, and insert it at the top of your README:
