@@ -49,3 +49,9 @@ The project demonstrates how SQL can be used to clean data, generate reports, an
 1. Clone the repository:
    ```bash
    git clone https://github.com/Devansh-Daga/SQL_DATA_ANALYTICS_PROJECT.git
+
+2. Set up a SQL database (**PostgreSQL / MySQL / SQL Server**).
+
+3. Import your dataset or use the provided schema (`sample_schema.sql` if available).
+
+4. Run the SQL scripts in the `Scripts/` folder to perform analysis.
