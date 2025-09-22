@@ -23,8 +23,6 @@ The project demonstrates how SQL can be used to clean data, generate reports, an
 
 ---
 
----
-
 ## 🛠️ Features
 
 - SQL queries for **data cleaning and preprocessing**
@@ -82,6 +80,8 @@ Contributions are welcome!
 2. Create a feature branch (`git checkout -b feature-name`)  
 3. Commit changes (`git commit -m "Added feature"`)  
 4. Push and open a Pull Request
+
+---
 
 ## 📜 License
 
