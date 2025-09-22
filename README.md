@@ -1,3 +1,4 @@
+
 # SQL Data Analytics Project
 
 This repository contains a collection of **SQL scripts** designed for data exploration, analytics, and reporting.  
@@ -19,3 +20,32 @@ The project demonstrates how SQL can be used to clean data, generate reports, an
 - **LICENSE** → License (MIT)  
 
 - **sample_schema.sql** → (Optional) Database schema for testing
+
+---
+
+---
+
+## 🛠️ Features
+
+- SQL queries for **data cleaning and preprocessing**
+- Exploratory Data Analysis (EDA) using SQL
+- Time-based sales and trend analysis
+- Customer segmentation and grouping
+- Business KPI reporting queries
+
+---
+
+## 📊 Example Use Cases
+
+- Identify top-selling products and sales trends
+- Analyze customer purchasing behavior
+- Clean messy datasets with missing/duplicate values
+- Generate summary reports for stakeholders
+
+---
+
+## 🚀 How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Devansh-Daga/SQL_DATA_ANALYTICS_PROJECT.git
