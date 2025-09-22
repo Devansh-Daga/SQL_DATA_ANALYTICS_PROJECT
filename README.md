@@ -6,4 +6,16 @@ The project demonstrates how SQL can be used to clean data, generate reports, an
 ---
 
 ## 📂 Project Structure
-SQL_DATA_ANALYTICS_PROJECT/ │ ├── Scripts/             # SQL scripts for different analysis tasks │   ├── 01_data_cleaning.sql │   ├── 02_exploratory_analysis.sql │   ├── 03_sales_trends.sql │   ├── 04_customer_segmentation.sql │   └── ... │ ├── README.md            # Project documentation ├── LICENSE              # License (MIT) └── sample_schema.sql    # (Optional) Database schema for testing
+
+- **Scripts/** → SQL scripts for different analysis tasks  
+  - 01_data_cleaning.sql  
+  - 02_exploratory_analysis.sql  
+  - 03_sales_trends.sql  
+  - 04_customer_segmentation.sql  
+  - ...  
+
+- **README.md** → Project documentation  
+
+- **LICENSE** → License (MIT)  
+
+- **sample_schema.sql** → (Optional) Database schema for testing
