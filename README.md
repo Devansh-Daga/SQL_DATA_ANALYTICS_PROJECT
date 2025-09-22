@@ -10,6 +10,12 @@
 
 ---
 
+## About
+
+This project showcases advanced SQL techniques for data cleaning, exploratory analysis, customer segmentation, and business reporting. It is aimed at data analysts seeking practical SQL solutions to extract actionable insights from complex datasets.
+
+---
+
 ## 📈 Project Highlights
 
 - Comprehensive SQL scripts for data cleaning, exploratory analysis, sales trend analysis, and customer segmentation.
